@@ -14,6 +14,9 @@ Build, and run an application on **linux**, it could expose several metrics of t
 
 There are two goals of this small project:
 
+1. build a web application that exposes several metrics 
+1. collect and make a dashboard for the exposed metrics
+
 ### Goal 1
 
 Build one web application called `mini-node-exporter`, it should listen on `0.0.0.0:23333`, and expose several endpoints:
@@ -54,7 +57,7 @@ You should:
 - execute grafana on your host, and configure it for using prometheus as the datasource
 - create a grafana dashboard for showing these metrics provided by `mini-node-exporter`, in any forms.
 
-Please let it collector data for several minutes and take a snapshot of your grafana dashboard, email me the snapshot. :P
+Please let it collector data for several minutes and take a screenshot of your grafana dashboard, email me the screenshot. :P
 
 optional bonus:
 
